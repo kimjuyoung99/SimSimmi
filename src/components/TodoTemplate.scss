@@ -1,0 +1,21 @@
+.TodoTemplate {
+    width: 512px; /* 할 일 목록의 너비를 512픽셀로 고정합니다. */
+    margin-left: auto; /* 좌우 중앙 정렬을 위해 왼쪽 마진을 자동으로 설정합니다. */
+    margin-right: auto; /* 좌우 중앙 정렬을 위해 오른쪽 마진을 자동으로 설정합니다. */
+    margin-top: 6rem; /* 상단으로부터의 거리를 6rem으로 설정하여 위쪽에 여백을 추가합니다. */
+    border-radius: 4px; /* 요소의 모든 모서리를 4픽셀의 반경으로 둥글게 합니다. */
+    overflow: hidden; /* 요소 내부의 내용이 경계를 벗어날 경우 잘리도록 설정합니다. */
+   
+    .app-title {
+      background: #22b8cf; /* 앱 제목 배경을 청록색으로 설정합니다. */
+      color: white; /* 제목 글자색을 흰색으로 설정합니다. */
+      height: 4rem; /* 제목 영역의 높이를 4rem으로 설정합니다. */
+      font-size: 1.5rem; /* 제목 글자 크기를 1.5rem으로 설정합니다. */
+      display: flex; /* Flexbox 모델을 사용하여 내용을 정렬합니다. */
+      align-items: center; /* 세로 방향으로 중앙 정렬합니다. */
+      justify-content: center; /* 가로 방향으로 중앙 정렬합니다. */
+    }
+    .content {
+      background: white; /* 할 일 목록의 배경을 흰색으로 설정합니다. */
+    }
+  }
